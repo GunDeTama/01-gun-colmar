@@ -9,17 +9,29 @@
 </head>
 
 <body>
-    <header class="bg-white">
-        <nav class="flex items-center h-16 w-full px-6">
-            <div>
-                <img src="/assests/capstone_colmar_assets/images/ic-logo.svg" class="scale-150">
+    <header class="bg-white shadow-md h-16 flex items-center justify-between px-4 md:px-6">
+        <nav class="flex items-center justify-between w-full">
+            <div class="flex items-center">
+                <img src="/assests/capstone_colmar_assets/images/ic-logo.svg" class="scale-150 w-8 h-8">
             </div>
             
-            <div class="ml-2">
+            <div class="flex items-center sm:hidden">
+                <img src="/assests/capstone_colmar_assets/images/ic-on-campus.svg" class="scale-150 w-8 h-8">
+            </div>
+
+            <div class="flex items-center sm:hidden">
+                <img src="/assests/capstone_colmar_assets/images/ic-online.svg" class="scale-150 w-8 h-8">
+            </div>
+
+            <div class="flex items-center sm:hidden">
+                <img src="/assests/capstone_colmar_assets/images/ic-login.svg" class="scale-150 w-8 h-8">
+            </div>
+
+            <div class="hidden md:block ml-2">
                 <h1 class="text-2xl font-bold text-gray-600">COLMAR<span class="font-semibold text-gray-400">ACADEMY</span></h1>
             </div>
 
-            <ul class="flex items-center ml-auto space-x-2.5 text-gray-700">
+            <ul class="hidden md:flex items-center ml-auto space-x-2.5 text-gray-700">
                 <li><a href="#" class="hover:text-black font-semibold text-xl">On campus</a></li>
                 <li><a href="#" class="hover:text-black font-semibold text-xl">Online</a></li>
                 <li><a href="#" class="hover:text-black font-semibold text-xl">or companies</a></li>
